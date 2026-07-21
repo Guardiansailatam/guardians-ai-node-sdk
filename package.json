@@ -1,0 +1,37 @@
+{
+  "name": "guardiansai-node",
+  "version": "1.0.0",
+  "description": "SDK oficial de Guardians AI para Node.js — detección de fraude y contenido generado por IA.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src/index.js",
+    "src/index.d.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "guardians-ai",
+    "fraude",
+    "fraud-detection",
+    "deepfake",
+    "ai-detection",
+    "kyc",
+    "payment-validation"
+  ],
+  "author": "Sarita Technology Group LLC",
+  "license": "MIT",
+  "homepage": "https://www.guardiansai.app/api-docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guardiansailatam/guardians-ai-node-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guardiansailatam/guardians-ai-node-sdk/issues"
+  },
+  "scripts": {
+    "test": "node test/smoke.js"
+  }
+}
